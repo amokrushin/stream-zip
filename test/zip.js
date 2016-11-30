@@ -369,7 +369,7 @@ test('throw error on direct write', t => {
     t.end();
 });
 
-test('source emits error', t => {
+test('source error as a chunk', t => {
     const zip = new Zip();
     const ps1 = new PassThrough({ objectMode: true });
     const ps2 = new PassThrough({ objectMode: true });
