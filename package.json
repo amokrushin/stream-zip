@@ -4,14 +4,16 @@
   "description": "zip together multiple streams into a single stream",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "codecov": "node test -c lcovonly && ./node_modules/.bin/codecov"
   },
   "author": "Anton Mokrushin <anton@mokr.org> (mokr.org)",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "am-node-tape-runner": "https://github.com/amokrushin/am-node-tape-runner",
+    "am-node-tape-runner": "^1.1.1",
     "async": "^2.1.4",
+    "codecov": "^1.0.1",
     "lodash": "^4.17.2",
     "tape": "^4.6.3"
   },
