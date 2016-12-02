@@ -1,4 +1,9 @@
 # stream-zip
+[![Latest Stable Version](https://img.shields.io/npm/v/stream-zip.svg)](https://www.npmjs.com/package/stream-zip)
+[![Build Status](https://img.shields.io/travis/amokrushin/stream-zip/master.svg)](https://travis-ci.org/amokrushin/stream-zip)
+[![Test Coverage](https://img.shields.io/codecov/c/github/amokrushin/stream-zip/master.svg)](https://codecov.io/github/amokrushin/stream-zip?branch=master)
+[![Dependency Status](https://img.shields.io/david/amokrushin/stream-zip.svg)](https://david-dm.org/amokrushin/stream-zip)
+[![License](https://img.shields.io/npm/l/stream-zip.svg)](https://raw.githubusercontent.com/amokrushin/stream-zip/master/LICENSE.txt)
 
 Combine multiple streams into a single stream
 
