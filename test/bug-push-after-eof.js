@@ -22,6 +22,13 @@ test('fix push after eof', t => {
         },
     });
     const actual = [];
+    /*
+     * before fix actual was equal
+     * [
+     *   ['tf1-1', 'tf2-1'],
+     *   ['tf1-3', 'tf2-2']
+     * ]
+     */
     const expected = [
         ['tf1-1', 'tf2-1'],
         ['tf1-2', 'tf2-2'],
